@@ -29,7 +29,7 @@ final class WooCommerceTounsi {
 	 */
 	public function __construct() {
 		add_action( 'init', array( $this, 'WooCommerceTounsi_setup' ), -1 );
-		require_once( 'custom/functions.php' );
+		require_once( 'assets/functions.php' );
 	}
 
 
