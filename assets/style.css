@@ -1,0 +1,7 @@
+/**
+ * Add your custom CSS Here
+ *
+ */
+*:focus{
+  outline: none !important;
+}
