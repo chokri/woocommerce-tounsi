@@ -61,9 +61,7 @@ final class WooCommerceTounsi {
 	public function WooCommerceTounsi_js() {
 		wp_enqueue_script( 'custom-js', plugins_url( '/assets/custom.js', __FILE__ ), array( 'jquery' ) );
 		if(is_front_page()){
-			// wp_enqueue_script( 'vegas-js', plugins_url( '/vegas/vegas.js', __FILE__ ), array( 'jquery' ) );
-			// wp_enqueue_script( 'vegas-app', plugins_url( '/vegas/app.js', __FILE__ ), array( 'jquery' ) );
-			wp_localize_script('vegas-app', "plugin_url", plugins_url( "/images", __FILE__ ));
+			// Scripts only on Front page
 		}
 	}
 
